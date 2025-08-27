@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+llm-env/
+env/
+
+# Model files
+Llama3B-ov/
+*.bin
+*.xml
+*.json
+*.cache/

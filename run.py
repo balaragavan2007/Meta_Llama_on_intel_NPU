@@ -1,7 +1,7 @@
 import openvino_genai
 import time
 
-model_path = "/mnt/Ironwolf-4TB/Models/OpenVINO/Qwen/Qwen3-1.7B-int8_asym-ov"
+model_path = "Llama3B-ov"
 
 # Use NPU+GPU if available
 pipe = openvino_genai.LLMPipeline(model_path, "CPU")

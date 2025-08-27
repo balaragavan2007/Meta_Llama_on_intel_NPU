@@ -1,0 +1,55 @@
+# 🦙 Meta Llama on Intel NPU with Open﻿Vino-genai
+
+This project demonstrates running **Meta Llama (3B)** on an **Intel Ultra Series 1 & 2 NPU** using **OpenVINO GenAI**.  
+The model is optimized with **INT4 quantization**, making it faster ⚡ and smaller 🚀.
+
+---
+
+## ✨ Features
+- Runs **Meta Llama LLM** locally on Intel NPU
+- Uses **OpenVINO GenAI **
+- **INT4 quantization** for efficient inference
+- Works **offline** (no GPU required)
+- Built with **Hugging Face Transformers + Optimum-Intel**
+
+---
+
+## 📦 Installation
+
+Clone this repository and install the dependencies:
+
+```bash
+git clone https://github.com/balaragavan2007/Meta_Llama_on_intel_NPU.git
+cd Meta_Llama_on_intel_NPU
+python -m venv llm
+llm\Scripts\activate
+pip install -r requirements.txt
+```
+
+---
+
+## ⚡ Model Download
+
+Download the model locally by the following command
+
+```bash
+huggingface-cli download llmware/llama-3.2-3b-instruct-npu-ov --local-dir Llama3B-ov
+```
+- This will create a folder Llama3B-ov with the OpenVINO-optimized model.
+
+---
+
+## ▶️ Usage
+
+- Run inference with:
+
+```bash
+python run.py
+```
+
+---
+
+## 📸 Demo
+<img width="1920" height="1080" alt="Screenbox_20251128_001106" src="https://github.com/user-attachments/assets/85bb9513-c760-44f0-990f-420bc9d0d40a" />
+
+---

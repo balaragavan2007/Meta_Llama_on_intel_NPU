@@ -4,7 +4,7 @@ import time
 model_path = "Llama3B-ov"
 
 # Use NPU+GPU if available
-pipe = openvino_genai.LLMPipeline(model_path, "CPU")
+pipe = openvino_genai.LLMPipeline(model_path, "AUTO")
 
 config = openvino_genai.GenerationConfig()
 config.max_new_tokens = 20000

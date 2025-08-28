@@ -49,6 +49,18 @@ python run.py
 
 ---
 
+## Performance
+
+Running the Meta-Llama-3-8B model on my [ASUS Vivobook S16 OLED with Intel Core Ultra 5 125H], I achieved the following performance:
+
+| Device | Performance      |
+|--------|------------------|
+| CPU    | [18.58] tok/s |
+| GPU    | [20.22] tok/s   |
+
+
+---
+
 ## 📸 Demo
 <img width="1920" height="1080" alt="Screenbox_20251128_001106" src="https://github.com/user-attachments/assets/85bb9513-c760-44f0-990f-420bc9d0d40a" />
 

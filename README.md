@@ -55,8 +55,8 @@ Running the Meta-Llama-3-8B model on my [ASUS Vivobook S16 OLED with Intel Core 
 
 | Device | Performance      |
 |--------|------------------|
-| CPU    | [7.8] tok/s |
-| GPU    | [13.11] tok/s |
+| CPU    | [] tok/s |
+| GPU    | [] tok/s |
 | NPU    | [10.72] tok/s |
 
 
